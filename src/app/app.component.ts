@@ -6,7 +6,7 @@ import counterService from './services/counter.service';
   template: `
     <div>Count: {{ counter() }}</div>
     <div>Double: {{ double() }}</div> 
-    <div>This number is {{ isEven()}}</div>
+    <div>This number is {{ evenOrOdd()}}</div>
   
     <button (click)="increment()">Increment</button>
     <button (click)="random()">Random</button>
@@ -14,12 +14,11 @@ import counterService from './services/counter.service';
 })
 export class AppComponent {
 
-
   counter = counterService.counter;
 
   double = counterService.double;
 
-  isEven = computed(() => counterService.isEven() ? 'even' : 'odd');
+  evenOrOdd = computed(() => counterService.isEven() ? 'even' : 'odd');
 
   increment() {
     this.counter.update((counter) => counter = counter + 1);
