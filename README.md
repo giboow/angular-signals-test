@@ -34,3 +34,4 @@ effect(() => console.log("counter", counter()));
 
 ### Links : 
 - https://github.com/angular/angular/discussions/49090
+- https://www.angulararchitects.io/aktuelles/angular-signals/
