@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "angular-signals-test"
+  "defaultProject": "angular-signals-test",
+  "cli": {
+    "analytics": false
+  }
 }
