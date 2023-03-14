@@ -2,6 +2,8 @@
 
 Example project to test the implementation of signals in Angular 16
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/giboow/angular-signals-test)
+
 ## signals
 ### Create a signal with init value
 
