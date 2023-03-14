@@ -17,7 +17,8 @@
     "@angular/forms": "~v16.0.0-next.2",
     "@angular/platform-browser": "~v16.0.0-next.2",
     "@angular/platform-browser-dynamic": "~v16.0.0-next.2",
-    "tslib": "^2.3.0",
+    "tslib": "^2.3.0",    
+    "rxjs": "~7.5.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
